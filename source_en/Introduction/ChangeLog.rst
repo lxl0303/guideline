@@ -10,7 +10,7 @@ Change Log
       - Modified locations
       - Modification details
 
-    * - 2017-02-28
+    * - 2017-03-17
       - \-
       - 5.3.0 RELEASE version published
 
@@ -22,8 +22,17 @@ Change Log
 
         * :doc:`../ImplementationAtEachLayer/CreateWebApplicationProject`  
         * :doc:`../Overview/FirstApplication`  
+        * :doc:`../TutorialTodo/index`
         * :doc:`../Tutorial/TutorialSecurity`  
         * :doc:`../Tutorial/TutorialTodo`  
+        * :doc:`../Appendix/CreateProjectFromBlank` 
+        
+    * -  
+	  - :doc:`../Introduction/CriteriaBasedMapping`  
+	  - Description details added  
+  
+	* Added a table that summarizes the mapping related to security measures from CVE perspective(\ `guideline#2439 <https://github.com/terasolunaorg/guideline/issues/2439>`_\ )  
+
 
     * -
       - :doc:`../ImplementationAtEachLayer/ApplicationLayer`
@@ -88,6 +97,14 @@ Change Log
 
     * -
       - :doc:`../Overview/FrameworkStack`
+      
+      	* Update the version of GroupId「\ ``org.springframework``\」from 3.2.17.RELEASE to 3.2.18.RELEASE(\ `guideline#2441 <https://github.com/terasolunaorg/guideline/issues/2441>`_\ )  
+ 		* -   
+ 		  - :doc:`../ImplementationAtEachLayer/DomainLayer`  
+ 		  - Description details modified  
+
+		* Modified signature limiting interface and base class implementation sample(\ `guideline#2219 <https://github.com/terasolunaorg/guideline/issues/2219>`_\ )  
+
       - Description details added
 
         * Embedding status of common library standards of blank project added (\ `guideline#1700 <https://github.com/terasolunaorg/guideline/issues/1700>`_\ )
@@ -108,6 +125,10 @@ Change Log
 
         * For MyBatis 3.3 + MyBatis-Spring 1.2, "value specified in timeout attribute of @Transactinal is not used" is added (\ `guideline#1777 <https://github.com/terasolunaorg/guideline/issues/1777>`_\ )
 
+	* -
+	  - :doc:`../ArchitectureInDetail/DataAccessJpa`
+	  * Add warning and countermeasure related to \ `CVE-2016-6652 <https://pivotal.io/security/cve-2016-6652>`_\ (Vulnerability that may subject to blind SQL injection attack)(\ `guideline#2439 <https://github.com/terasolunaorg/guideline/issues/2439>`_\ ) 
+	  
     * -
       - :doc:`../ImplementationAtEachLayer/ApplicationLayer`
       - Description details added
